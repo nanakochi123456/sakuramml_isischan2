@@ -1,7 +1,7 @@
 // #ISISクソコラグランプリ
 // #ISISちゃん　テーマ曲
 // ギブミーメロリン title by @minamino48
-// 弾き語りver version 1.0
+// 弾き語りver version 1.1
 // by @nanakochi123456
 // 参考歌詞 アイシスちゃんのテーマ @kusakaiza913
 // 動画、添削 by @isisvipper
@@ -329,6 +329,7 @@ IF(TIMIDITY=1) {
 
 #g1={
 	l8
+	Expression(115)
 	[
 		#g_aeac
 		#g_dfad
@@ -338,20 +339,21 @@ IF(TIMIDITY=1) {
 	l8
 	[
 		#g_aeac
+		Expression(105)
 	]
 }
 
 #g2={
 	[
 		#g_aeac
-		#PEDALON #V1 g#> #V3 e #V4 g# #V2 b4 #V4 #PEDALOFF e <  l4 BG(f>g#b>d<<)
+		#PEDALON #V1 g#> #V3 e #V4 g# #V2 b4 #V4 #PEDALOFF e <  l4 #V2 BG(f>g#b>d<<)
 		#g_ffac
 		#g_eegc
 		#g_dfpad
 		#g_aeac
 		:
-		#PEDALON #V1 d> #V3 f# #V4 a >#V2 d4 #V4 < a  #PEDALOFF #PEDALON l4 BG(d#f#a>c#<) #PEDALOFF l8 <
-		#PEDALON #V1 e> #V3 e #V4 g# #V2 b4 #V4 g# #PEDALOFF #PEDALON BG(eg#b>d<) g# #PEDALOFF <
+		#PEDALON #V1 d> #V3 f# #V4 a >#V2 d4 #V4 < a  #PEDALOFF #PEDALON #V3 l4 BG(d#f#a>c#<) #PEDALOFF l8 <
+		#PEDALON #V1 e> #V3 e #V4 g# #V2 b4 #V4 g# #PEDALOFF #PEDALON #V2 BG(eg#b>d<) g# #PEDALOFF <
 	]
 	#PEDALON #V1 d > #V3 a > #V2 BG(df#) < #V4 a #PEDALOFF <
 	#PEDALON #V1 e > #V3 b > #V2 BG(eg#) < #V4 b #PEDALOFF <
@@ -375,7 +377,8 @@ IF(TIMIDITY=1) {
 	]
 	#PEDALON #V1 b> #V3 b > #V4 d #V2 f4 #V4 d #V3 BG(fb) #V4 f << #PEDALOFF
 	#PEDALON #V1 b> #V3 b > #V4 d #V2 f4 #V4 d #V3 BG(fb>d<) #V4 f << #PEDALOFF
-	#PEDALON #V1 e> #V3 a #V4 b > #V2 e4 < #V4 b >#V3 BG(eab) #V4 e << #PEDALOFF
+	#PEDALON #V1 e> #V3 a #V4 b > #V2 e4 < #V4 b >#V2 BG(eab) #V3 e << #PEDALOFF
+	Expression(127)
 	r #PEDALON [3 #V1 BG(e>ab>e<<) ] #PEDALOFF #PEDALON [4 #V1 BG(e>g#b>e<<)] #PEDALOFF
 }
 
@@ -401,6 +404,7 @@ IF(TIMIDITY=1) {
 }
 
 #g5={
+	Expression(105)
 	[
 		#g_aeac
 		#g_dfad
@@ -408,6 +412,7 @@ IF(TIMIDITY=1) {
 }
 
 #g6={
+	Expression(127)
 	o3
 	#PEDALON [4 l4 #V3 BG(f>#V4 cfa>c)<<] #PEDALOFF
 	#PEDALON [4 l4 #V3 BG(g>#V4 dgb>d)<<] #PEDALOFF
@@ -429,10 +434,10 @@ IF(TIMIDITY=1) {
 	#PEDALON [1 l4 #V3 BG(d>#V4 a>cfa)<<] #PEDALOFF
 	#PEDALON [3 l4 #V3 BG(d>#V4 a>cf)<<] #PEDALOFF
 	#PEDALON [4 l4 #V3 <BG(b>>#V4 b>df)<<] #PEDALOFF
-	#PEDALON [1 l4 #V3 <BG(b>>#V4 b>dfa)<<] #PEDALOFF
-	#PEDALON [3 l4 #V3 <BG(b>>#V4 b>df)<<] #PEDALOFF
-	#PEDALON [4 l4 #V3 BG(e>#V4 a>be)<<] #PEDALOFF
-	l8 r #PEDALON [3 #V1 BG(e #V3 >ab>e<<) ] #PEDALOFF #PEDALON [4 #V1 BG(e #V3 >g#b>e<<)] #PEDALOFF
+	#PEDALON [4 l4 #V3 <BG(b>>#V4 b>dfa>d)<<<] #PEDALOFF
+//	#PEDALON [3 l4 #V3 <BG(b>>#V4 b>df)<<] #PEDALOFF
+	#PEDALON [4 l4 #V2 BG(e>#V3 a>beb)<<] #PEDALOFF
+	l8 r #PEDALON [3 #V1 BG(e #V2 >ab>e<<) ] #PEDALOFF #PEDALON [4 #V1 BG(e #V2 >g#b>e<<)] #PEDALOFF
 
 }
 
