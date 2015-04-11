@@ -5,34 +5,14 @@ Copyright 2015 @nanakochi123456
 
 ■バイナリ公開場所
 
-v1.5
-https://soundcloud.com/groups/isis-chan-give-me-melorin<br>
-https://www.youtube.com/watch?v=B3xznT9c_60<br>
-http://www.nicovideo.jp/watch/sm25800907<br>
-https://www.youtube.com/watch?v=wJ0SnNVOhak<br>
-http://www.nicovideo.jp/watch/sm25800891<br>
-https://www.youtube.com/watch?v=SXyglN6Ws_E<br>
-http://www.nicovideo.jp/watch/sm25800872<br>
-
-v1.2<br>
-https://soundcloud.com/groups/isis-chan-give-me-melorin<br>
-http://www.nicovideo.jp/watch/sm25509411 （カラオケ）<br>
-http://nanakochi.info/%e3%81%9d%e3%81%ae%e4%bb%96%e3%81%ae%e7%9d%80%e3%83%a1%e3%83%ad/%e3%80%90ISIS%e3%81%a1%e3%82%83%e3%82%93%e3%80%91Give%20Me%20Merorin/ （着メロ）<br>
-http://seiga.nicovideo.jp/watch/mg117992 （楽譜）
-
-v1.1<br>
-https://www.youtube.com/watch?v=ZUrF_8fBttY<br>
-http://www.nicovideo.jp/watch/sm25500629<br>
-
-v1.0<br>
-https://www.youtube.com/watch?v=28ezdvuqzRI<br>
-http://www.nicovideo.jp/watch/sm25500629<br>
+v2.0
+https://www.youtube.com/watch?v=u7DcOoxmlE0
+http://www.nicovideo.jp/watch/sm25973896
 
 ■ソース
 
 いわゆるコンピューター上の楽譜<br>
-http://oto.chu.jp/mmlbbs6/post.php?mml_id=1604
-http://oto.chu.jp/mmlbbs6/post.php?mml_id=1620
+http://oto.chu.jp/mmlbbs6/post.php?mml_id=1637
 
 歌詞（英語なし）<br>
 http://uta.pw/sakusibbs/post.php?mml_id=147
@@ -50,28 +30,15 @@ http://sourceforge.net/projects/timidity/files/
 TiMidiTy++のパッチセット
 http://sf2.daiba.cx/data/isischan/
 
-または、ファミコン版の生成に
-
-Famicom.sf2
-http://www.k3.dion.ne.jp/~kitt/sf/lib.html
-
-MSXRYTHM.sf2
-https://github.com/nanakochi123456/sf2_msx_rythm
-
 csakura（テキスト音楽さくら）
 http://oto.chu.jp/
 
 perl 5.8以降 (ActivePerl等も）
 http://www.activestate.com/activeperl
 
-VOCALOID3 (初音ミク、IA)
+VOCALOID3 (がくっぽいど whisper)
 http://www.vocaloid.com/
-http://www.crypton.co.jp/mp/pages/prod/vocaloid/cv01.jsp
-http://1stplace.co.jp/artist/ia/
-
-CeVIO Creative Studio (FREEかS) さとうささら
-http://cevio.jp/
-※FREEは以前上記サイトで配布されていたものです。
+http://www.ssw.co.jp/products/vocal3/gackpoid/products/whisper/
 
 もしくは、utau
 http://utau2008.xrea.jp/
@@ -131,7 +98,7 @@ masterにあるバージョンは利用禁止です。
 ブランチを作成いたしますので、そちらは利用可能です。
 
 URLは、以下等で・・
-https://github.com/nanakochi123456/sakuramml_isischan/tree/1.2
+https://github.com/nanakochi123456/sakuramml_isischan2/master/
 
 ISIS撲滅、平和関係等であれば何に使用しても構いません。
 

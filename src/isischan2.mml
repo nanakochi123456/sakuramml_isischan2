@@ -334,12 +334,13 @@ IF(TIMIDITY=1) {
 		#g_aeac
 		#g_dfad
 	]
+	Expression(127)
 	l8 r #V1 [BG(e>ab>e<<)] r [BG(e>ab>e<<)] r [BG(e>ab>e<<)]
 	r8 Sub { l2.BG(e>g#b>d<<) } r2 e4
 	l8
 	[
 		#g_aeac
-		Expression(105)
+		Expression(100)
 	]
 }
 
